@@ -1,0 +1,12 @@
+
+insert into categoria(id, nombre, descripcion, fecha) values (1, 'Godzilla vs Kong 2021', 'En un momento en que los monstruos caminan por la Tierra, la lucha de la humanidad por su futuro coloca a Godzilla y Kong', '24-03-21');
+insert into categoria(id, nombre, descripcion, fecha) values (2, 'Mortal Kombat (2021)', 'Un boxeador descubre un secreto familiar que lo lleva a un torneo Mortal Kombat donde se lucha hasta la muerte para salvar los reinos.', '23-04-21');
+insert into categoria(id, nombre, descripcion, fecha) values (3, 'Chronical: 2067 (2020)', 'En el futuro cercano, el cambio climático ha provocado la necesidad de emplear oxígeno artificial para poder respirar.', '02-10-20');
+
+insert into genero(id, nombre, descripcion, fecha) values (1, 'Accion', 'es un genero cinematografico donde prima la espectacularidad de las imagenes por medio de efectos especiales de estilo clasico. ', '10-10-98');
+insert into genero(id, nombre, descripcion, fecha) values (2, 'Fantasia','es un genero artistico en el que hay presencia de elementos que rompen con la realidad establecida.', '05-05-95');
+insert into genero(id, nombre, descripcion, fecha) values (3, 'ciencia ficcion', 'es la denominacion de uno de los generos derivados de la literatura de ficcion, junto con la literatura fantastica y la narrativa de terror', '05-05-90');
+
+insert into contenido(id, contenido, nombre, resumen, categoria, genero, fecha) values (1, 'Popular', 'Godzilla vs Kong 2021', 'En un momento en que los monstruos caminan por la Tierra, la lucha de la humanidad por su futuro coloca a Godzilla y Kong', 'Todo publico', 'Accion', '10-10-10');
+insert into contenido(id, contenido, nombre, resumen, categoria, genero, fecha) values (2, 'Recomendados', 'Mortal Kombat (2021)', 'Un boxeador descubre un secreto familiar que lo lleva a un torneo Mortal Kombat donde se lucha hasta la muerte para salvar los reinos', 'Publico Adulto', 'Fantasia', '05-05-05');
+insert into contenido(id, contenido, nombre, resumen, categoria, genero, fecha) values (3, 'Estrenos', 'Chronical: 2067 (2020)', 'En el futuro cercano, el cambio climático ha provocado la necesidad de emplear oxígeno artificial para poder respirar.', 'Publico Adulto', 'ciencia ficcion', '05-05-05');
